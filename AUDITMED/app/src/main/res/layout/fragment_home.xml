@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryBlue"
+    android:paddingStart="20dp"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingEnd="10dp"
+    android:paddingRight="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/source"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Source"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"/>
+
+        <Spinner
+            android:id="@+id/source_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_numero_de"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/txt_numero_de"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="text"
+                android:hint="Numero de compteur" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_calibre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/txt_calibre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="text"
+                android:hint="Calibre" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Mode de pose"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"/>
+
+        <Spinner
+            android:id="@+id/mode_de_pose_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_dimension"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/txt_dimension"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="text"
+                android:hint="Dimension" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Etat de l'envelope"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"/>
+
+        <Spinner
+            android:id="@+id/etat_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Type d'envelope"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"/>
+
+        <Spinner
+            android:id="@+id/type_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="IP"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"/>
+
+        <Spinner
+            android:id="@+id/ip_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Type de protection generale"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"/>
+
+        <Spinner
+            android:id="@+id/etat_protection_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Etat de protection"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"/>
+
+        <Spinner
+            android:id="@+id/contacteur_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nombre de contacteur"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"/>
+
+        <Spinner
+            android:id="@+id/protection_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Etat de contacteur"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"/>
+
+        <Spinner
+            android:id="@+id/etat_de_concat_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Type de commande"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"/>
+
+        <Spinner
+            android:id="@+id/type_de_commande_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nombre de depart"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"/>
+
+        <Spinner
+            android:id="@+id/nombre_de_depart_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Protection de depart"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray"/>
+
+        <Spinner
+            android:id="@+id/protection_de_depart_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_tension"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/txt_tension"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="text"
+                android:hint="Tension" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.iot.panel.ui.view.CNRoundedButton
+            android:id="@+id/btn_submit"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_sign_in_button"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:corner_radius="30dp"
+            android:text="Submit"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

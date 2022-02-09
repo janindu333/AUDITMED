@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">AUDITMED</string>
+
+    <!--Progress bar-->
+    <string name="txt_progress">Fetching data…</string>
+
+    <!--Bottom navigation menu -->
+    <string name="menu_map">Map</string>
+
+    <string name="some_wrong">Something went wrong</string>
+    <!--Button title-->
+    <string name="ok">OK</string>
+
+    <!--Splash activity-->
+    <string name="update_title">New Updates available!</string>
+    <string name="update_message">"Update %1$s is available to download. By downloading the latest update you will get the latest features, improvements &amp; bug fixes for chargeNET"</string>
+    <string name="update">update</string>
+
+    <!--Button title-->
+
+    <string name="try_again">Try again</string>
+
+    <string name="cancel">Cancel</string>
+
+    <!--General notifications-->
+    <string name="loading">Loading…</string>
+    <string name="warning">Warning…</string>
+    <string name="error">Error…!</string>
+    <string name="internet_connection_lost">Your internet connection has been lost, please check your connectivity and try again</string>
+    <string name="pleasewait">Please wait…</string>
+    <string name="database_name">Locations</string>
+
+
+    <string-array name="sources_array">
+        <item>MT/BT</item>
+        <item>Coffret derivation</item>
+    </string-array>
+
+    <string-array name="mode_de_pose_array">
+        <item>Encastre</item>
+        <item>Sur scole</item>
+    </string-array>
+
+    <string-array name="etat_array">
+        <item>Bon</item>
+        <item>Mauvais</item>
+    </string-array>
+
+    <string-array name="type_array">
+        <item>Acier Galvanise</item>
+        <item>Acier thermolaque</item>
+        <item>Polystere</item>
+    </string-array>
+
+    <string-array name="ip_array">
+        <item>23</item>
+        <item>44</item>
+    </string-array>
+
+    <string-array name="protection_array">
+        <item>Sectionneur interrupteur</item>
+        <item>Sectionneur porte fusible</item>
+        <item>Sans</item>
+    </string-array>
+
+    <string-array name="etat_protection_array">
+        <item>Bon</item>
+        <item>Mauvais</item>
+    </string-array>
+
+    <string-array name="contacteur_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="etat_de_contacteur_array">
+        <item>Bon</item>
+        <item>Mauvais</item>
+    </string-array>
+
+    <string-array name="type_de_commande_array">
+        <item>Horloge astronomique</item>
+        <item>Photocellule</item>
+        <item>Pulsadis</item>
+        <item>Mecanique</item>
+    </string-array>
+
+    <string-array name="nombre_de_depart_array">
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="protection_de_depart_array">
+        <item>Scole fusible</item>
+        <item>Sans</item>
+    </string-array>
+
+</resources>

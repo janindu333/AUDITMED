@@ -1,0 +1,8 @@
+<resources>
+    <!--fab menu-->
+    <dimen name="fab_padding_right">10dp</dimen>
+    <dimen name="fab_padding_bottom">56dp</dimen>
+
+    <!--bottom navigation view-->
+    <dimen name="bottom_navigation_bottom_margin">56dp</dimen>
+</resources>
